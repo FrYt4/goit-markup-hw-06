@@ -571,6 +571,7 @@ display: flex;
     padding: 8px 24px;
     gap:16px;
     align-items: center;
+    justify-content: center;
     line-height: 1.5;
     font-weight: 500;
     font-size: 16px;
@@ -578,6 +579,7 @@ display: flex;
     cursor: pointer;
     border: none;
 }
+
 
 .footer-send-icon{
 padding-left: 16px; 
