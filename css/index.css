@@ -741,6 +741,8 @@ color: var(--brand-color-ocean) ;
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
+
 }
 
 .modal-backdrop{
@@ -752,6 +754,7 @@ color: var(--brand-color-ocean) ;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
       visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .modal-close-button {
@@ -818,6 +821,10 @@ position: relative;
     outline: transparent;
   }
 
+  .modal-input:active{
+    background-color: #4D5AE5;
+  }
+
 .modal-svg{
     position: absolute;
     left: 16px;
@@ -857,7 +864,7 @@ margin-bottom: 16px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }   
 
-.modal-two-input:hover{
+.modal-two-input:active{
     border-color: #4D5AE5;
 }
 
@@ -876,7 +883,7 @@ margin-bottom: 16px;
 .modal-span{
     width: 16px;
     height: 16px;
-    border: 1px solid rgba(46,47,66,04);
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
@@ -902,4 +909,10 @@ background-color: #4D5AE5;
 border: none;
 border-radius: 4px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.modal-check:checked .modal-span{
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
 }
