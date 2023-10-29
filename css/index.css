@@ -821,7 +821,7 @@ position: relative;
     outline: transparent;
   }
 
-  .modal-input:active{
+  .modal-input:focus{
    border-color: #4D5AE5;
   }
 
@@ -833,7 +833,7 @@ position: relative;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-svg:active{
+.modal-svg:focus{
     fill: #4D5AE5;
 }
 
@@ -868,7 +868,7 @@ margin-bottom: 16px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }   
 
-.modal-two-input:active{
+.modal-two-input:focus{
     border-color: #4D5AE5;
 }
 
