@@ -275,6 +275,7 @@ align-items: center;
 justify-content: center;
 color: #FFFFFF;
 background-color: transparent;
+display: flex;
 }
 
 .subscribe-text{
@@ -285,6 +286,7 @@ align-items: center;
 justify-content: center;
 color: #FFFFFF;
 background-color: transparent;
+display: flex;
 }
 
 .subsribe-button{
