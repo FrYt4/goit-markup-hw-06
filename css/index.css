@@ -934,16 +934,12 @@
         fill: #f4f4fd;
     }
     
-    /*--------------------deskop-------------------------------------------------*/
-    
-    
-    
     .section-subscribe{
         padding: 100px 0;
         background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-            url(../images/Subcribe-tablet1x.jpg);
+            url(../images/Subcribe-mobile1x.jpg);
             max-width: 1200px;
             background-repeat: no-repeat;
             background-position: center;
@@ -960,7 +956,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/Subcribe-tablet2x.jpg);
+        url(../images/Subcribe-mobile2x.jpg);
     }
     }
     .container-subscribe{
