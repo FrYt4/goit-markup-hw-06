@@ -202,7 +202,7 @@
     }
     }
     .container-subscribe{
-        width: 1200px;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 0 15px;
     }
@@ -270,8 +270,9 @@
     background-color: #1E1823;
     padding: 48px;
     }
+
     .container-footer{
-    width: 1200px;
+    max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
     }
@@ -582,7 +583,7 @@
     }
     }
     .container-subscribe{
-        width: 768px;
+      max-width: 768px;
         margin: 0 auto;
         padding: 0 15px;
     }
@@ -651,7 +652,7 @@
     padding: 48px;
     }
     .container-footer{
-    width: 768px;
+    max-width: 768px;
     padding: 0 15px;
     margin: 0 auto;
     }
@@ -963,7 +964,7 @@
     }
     }
     .container-subscribe{
-        width: 375px;
+       max-width: 375px;
         margin: 0 auto;
         padding: 0 15px;
     }
@@ -1032,7 +1033,7 @@
     padding: 48px;
     }
     .container-footer{
-    width: 375px;
+    max-width: 375px;
     padding: 0 15px;
     margin: 0 auto;
     }
