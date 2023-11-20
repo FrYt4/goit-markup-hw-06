@@ -181,7 +181,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-        url(../images/Subcribe.jpg);
+        url(../images/Subcribe.png);
         max-width: 1200px;
         background-repeat: no-repeat;
         background-position: center;
@@ -198,7 +198,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/Subcribe2x.jpg);
+    url(../images/Subcribe1x.jpg);
 }
 }
 .container-subscribe{
