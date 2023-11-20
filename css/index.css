@@ -271,7 +271,7 @@ font-size: 24px;
 letter-spacing: 0.03em;
 line-height: 1.07;
 width: 387px;
-align-items: center;
+text-align: center;
 justify-content: center;
 color: #FFFFFF;
 background-color: transparent;
@@ -279,10 +279,10 @@ display: flex;
 }
 
 .subscribe-text{
-font-weight: 400px;
+font-weight: 400;
 font-size: 14px;
 letter-spacing: 0.02em;
-align-items: center;
+text-align: center;
 justify-content: center;
 color: #FFFFFF;
 background-color: transparent;
@@ -290,7 +290,7 @@ display: flex;
 }
 
 .subsribe-button{
-font-weight: 600px;
+font-weight: 600;
 font-size: 18px;
 line-height: 1.5;
 letter-spacing: 0.04em;
