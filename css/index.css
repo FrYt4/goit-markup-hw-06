@@ -804,7 +804,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) scale(1);
-        width: 538px;
+        width: 311px;
         background: #FFFFFF;
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
           0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -875,7 +875,7 @@
     }
     
     .modal-input{
-        width: 313px;
+        width: 163px;
         height: 52px;
         border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 4px;
@@ -898,7 +898,7 @@
     color: #111111;
     text-align: left;
     margin-bottom: 16px;
-    width: 298px;
+    width: 263px;
     letter-spacing: 0.03em;
     
     }
@@ -915,7 +915,7 @@
     
     .modal-button-send{
     display: block;
-    min-width: 137px;
+    min-width: 100px;
     height: 52px;
     font-size: 14px;
     font-weight: 600;
