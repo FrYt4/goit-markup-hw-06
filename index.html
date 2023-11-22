@@ -6,7 +6,7 @@
    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pracadomowa2</title>
+    <title>projekt11</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
@@ -17,19 +17,20 @@
 <body>
     <header></header>
     <main>
-<!-----------------------------------------SUBSCRIB-E----------------------------------------------------------------->
-    <section class="section-subscribe">
-        <div class="container-subscribe">
-            <h1 class="subscribe-tittle">EXPLORE OUR NEW CHOCOLATE FIRST </h1>
-            <p class="subscribe-text">From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that will leave you craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is a work of art that is sure to please.
-
-            </p>
-            <button type="button" class="subsribe-button" data-modal-open>Subscribe
-
-            </button>
-        </div>
-
-    </section>
+<!-<section class="subscribe">
+    <div class="subscribe-content">
+      <h2 class="subscribe-header">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
+      <p class="subscribe-text">
+        From the velvety texture to the rich and complex flavor, our New Chocolate
+        is a true indulgence that will leave you craving more. Made with only the
+        finest ingredients and handcrafted with the utmost care, each piece is a
+        work of art that is sure to please.
+      </p>
+      <button data-modal-id="modal-subscribe" class="js-modal-open subscribe-btn" type="button">
+        Subscribe
+      </button>
+    </div>
+</section>
 </main>
 <footer class="footer">
     <div class="container-footer footer-flex">
@@ -91,25 +92,31 @@
     
     
     
-    <div class="modal-backdrop is-hidden" data-modal>
-        <div class="modal-container">
-            <button type="button" class="modal-close-button" data-modal-close>
-                <svg class="modal-icon" width="8" height="8">
-                    <use href="./images/modal-icon.svg#icon-cancel"></use>
-                </svg>
-            </button>
-            <div class="modal-second-container">
-            <p class="modal-text"> Explore our <span class="modal-text-span"> new chocolate </span> first!</p>
-            <form>
-           
-            <div class="modal-div-form">
-                <label class="modal-label" for="email"></label>
-                    <input id="email" name="user-name" type="text" class="modal-input" placeholder="Enter your email">
-      
-            <button class="modal-button-send">Subscribe</button>
-        </div>
-        </form>
-        </div>
+<div class="modal-backdrop is-hidden modal subscribe-modal" data-modal-open-id="modal-subscribe" >
+    <div class="subscribe-modal-picture">
+      <button type="button" class="subscribe-btn-close" data-modal-close>
+        <svg class="modal-icon" width="8" height="8">
+            <use href="./images/modal-icon.svg#icon-cancel"></use>
+        </svg>
+    </button>
+    </div>
+    <div class="subscribe-form">
+      <h2 class="subscribe-form-title">
+        Explore our <span class="subscribe-orange-txt">new chocolate</span> first!
+      </h2>
+  
+      <div class="email-window">
+        <label>
+          <input
+            class="subscribe-email"
+            type="email"
+            name="subscribe-email"
+            placeholder="Enter your email"
+          >
+        </label>
+        <button
+          class="subscribe-submit-btn js-modal-close" type="submit">Submit</button>
+      </div>
     </div>
 </div>
     <script src="./js/modal.js"></script>
